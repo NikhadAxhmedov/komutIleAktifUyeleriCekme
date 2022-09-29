@@ -1,13 +1,13 @@
 from pyrogram import Client, filters as f
 from os import getenv
 
-TOKEN = getenv("STRING")
-EKLENCEK_CHAT_ID = str(getenv("EKLENCEK_CHAT_ID"))
+TOKEN = getenv("5449672332:AAEl4TZ0krYrmYwslOBxlWCS82bdEu198GU")
+EKLENCEK_CHAT_ID = str(getenv("-1001235768012"))
 
 s_k = Client(
 	TOKEN,
-	api_id="5775802",
-	api_hash="6011ffc6cec69c60ef86456db0ce4d09"
+	api_id="19650379",
+	api_hash="aa1a8c806550ec597adc9b9c3199ea66"
 	)
 
 GONDERILEN = []
